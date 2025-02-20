@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, interactive-widget=resizes-content"
+        />
+        <title>Outrun the Supernova</title>
+        <link rel="stylesheet" href="hud.css" />
+      <script type="module" crossorigin src="/outrun-the-supernova-hosting/assets/index-B7WVJMX1.js"></script>
+      <link rel="stylesheet" crossorigin href="/outrun-the-supernova-hosting/assets/index-CVg8dtJm.css">
+    </head>
+
+    <body>
+        <div id="debug-info"></div>
+
+        <div id="danger-meter-container">
+            <div id="danger-meter-wrapper">
+                <div id="ship-icon">▲</div>
+                <div id="danger-meter"></div>
+            </div>
+        </div>
+
+        <div id="score-and-record-hud">
+            <div id="score-hud-container">
+                <div id="score-hud-label">SCORE</div>
+                <div id="score-hud">000</div>
+            </div>
+            <div id="record-hud-container">
+                <div>RECORD</div>
+                <div id="record-hud-value">0</div>
+            </div>
+        </div>
+
+        <div id="explosion"></div>
+
+        <div id="result-screen">
+            <div id="results-container">
+                <div id="score-label-result-screen">SCORE</div>
+                <div id="score-result-screen">000</div>
+                <div id="new-record-result-screen">NEW RECORD!</div>
+                <button id="retry-button">RETRY</button>
+            </div>
+        </div>
+
+        <div id="tutorial-screen">
+            <div id="version">v0.0.1</div>
+            <h1>Tutorial</h1>
+            <div id="tutorial-container">
+                <div class="tutorial-list-item">
+                    1. Click / tap / space bar to go to next orbit.
+                </div>
+                <div class="tutorial-list-item">
+                    <div id="tutorial-image-container">
+                        <div>2.</div>
+                        <img
+                            src="/outrun-the-supernova-hosting/assets/tutorial_image-CCzU46yt.png"
+                            alt="tutorial: green = fast"
+                        />
+                    </div>
+                </div>
+                <div class="tutorial-list-item">3. Go&nbsp;fast!</div>
+            </div>
+        </div>
+
+    </body>
+</html>
